@@ -144,7 +144,10 @@ h1 {
 
 /* CONTENT*/
 
+/* First section */
+
 .first-sect {
+    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -161,14 +164,21 @@ h1 {
 }
 
 .w-sect-col2 {
-    width: 40%;
+    width: 30%;
     min-height: 400px;
     text-align: left;
     /* background-color: #ffc0cb; */
 }
 
+/* Second section */
+
+.second-sect {
+    justify-content: center;
+
+}
+
 .normal {
-    min-height: 500px;
+    min-height: 600px;
     padding-top: 50px;
 }
 
@@ -177,15 +187,15 @@ h1 {
 }
 
 .g-sect-col1 {
-    width: 40%;
+    width: 20%;
     min-height: 400px;
-    background-color: #ffc0cb;
+    text-align: left;
 }
 
 .g-sect-col2{
     width: 60%;
     min-height: 400px;
-    background-color: #1e90ff;
+    text-align: right;
 }
 
 .big {
