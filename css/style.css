@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /* COMMON */
 
 .links li {
