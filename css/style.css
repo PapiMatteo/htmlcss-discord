@@ -189,7 +189,7 @@ h1 {
 }
 
 .gray-sect {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 .g-sect-col1 {
@@ -304,4 +304,14 @@ h1 {
 .registration {
     background-color: #7289da;
     padding: 10px 15px;
+}
+
+/* MORE DETAILS */
+.title-bg {
+    width: 55%;
+    margin: 0 auto;
+}
+.h3-bg {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
 }
