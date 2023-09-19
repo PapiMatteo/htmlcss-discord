@@ -119,7 +119,8 @@ h1 {
 .hero-btn {
     text-align: center;
     font-size: 1.5rem;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
 }
 
 .h-btn1 {
