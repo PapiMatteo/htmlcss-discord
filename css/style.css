@@ -42,7 +42,7 @@ a {
 }
 h2 {
     font-size: 3rem;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .sect-text {
@@ -144,7 +144,7 @@ h1 {
 
 /* CONTENT*/
 
-/* First section */
+/* First and Third section */
 
 .first-sect {
     /* justify-content: space-between; */
@@ -198,6 +198,8 @@ h1 {
     text-align: right;
 }
 
+/* Fourth section */
+
 .big {
     min-height: 900px;
     padding-top: 50px;
@@ -206,7 +208,12 @@ h1 {
 .big-cont {
     width: 100%;
     min-height: 800px;
-    background-color: #228b22;
+}
+.big-cont img {
+    width: 100%;
+}
+.last-sect-text {
+    text-align: center;
 }
 
 /* FOOTER */
