@@ -30,7 +30,6 @@ a {
 
 .container {
     width: 80%;
-    max-width: 1400px;
     margin: 0 auto;   
 }
 
@@ -43,7 +42,7 @@ a {
 }
 
 .btn {
-    
+    display: inline-block;
     border-radius: 2rem;
 }
 h2 {
@@ -96,7 +95,7 @@ header {
 .nav-btn {
     color: black;    
     background-color: white; 
-    padding: 10px 15px;  
+    padding: .5em 1em;  
 }
 
 /* HERO */
@@ -104,6 +103,7 @@ header {
 .hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
     min-height: 650px;
     padding-top: 50px;
 }
@@ -140,12 +140,12 @@ h1 {
 .h-btn1 {
     color: black;
     background-color: white;
-    padding: 15px 20px;
+    padding: .5em 1em;
 }
 
 .h-btn2 {
     background-color: #23272a;
-    padding: 15px 20px;
+    padding: .5em 1em;
 }
 
 /* CONTENT*/
@@ -153,27 +153,23 @@ h1 {
 /* First and Third section */
 
 .first-sect {
-    /* justify-content: space-between; */
+    /* justify-content: center; */
     align-items: center;
 }
 
 .white-sect {
     background-color: white;
-    min-height: 600px;
     padding-top: 50px;
 }
 
 .w-sect-col1 {
-    width: 60%;
-    min-height: 400px;
+    width: 50%;
     text-align: right;
 }
 
 .w-sect-col2 {
     width: 30%;
-    min-height: 400px;
     text-align: left;
-    /* background-color: #ffc0cb; */
 }
 
 /* Second section */
@@ -183,37 +179,28 @@ h1 {
 
 }
 
-.normal {
-    min-height: 600px;
-    /* padding-top: 50px; */
-}
-
 .gray-sect {
     background-color: #f6f6f6;
 }
 
 .g-sect-col1 {
     width: 20%;
-    min-height: 400px;
     text-align: left;
 }
 
 .g-sect-col2{
     width: 60%;
-    min-height: 400px;
     text-align: right;
 }
 
 /* Fourth section */
 
 .big {
-    min-height: 1300px;
     padding-top: 50px;
 }
 
 .big-cont {
     width: 100%;
-    min-height: 800px;
 }
 .big-cont img {
     width: 100%;
@@ -226,6 +213,9 @@ h1 {
     font-size: 2rem;
 }
 
+.bottom-sect {
+    padding-bottom: 50px;
+}
 .s-btn {
     font-size: 1.5rem;
     color: white;
@@ -255,7 +245,6 @@ h1 {
 
 .f-col1 {
     width: 20%;
-    min-height: 500px;
     color: white;
 }
 
@@ -267,7 +256,7 @@ h1 {
     width: 70%;
 }
 
-.col-list h4{
+h4{
     color: #7289da;
 }
 
